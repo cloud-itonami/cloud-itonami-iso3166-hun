@@ -11,13 +11,7 @@
           :rep-provenance "https://ekr.gov.hu/"
           :corporate-number-owner-authority "NAV / ORFK company court"
           :corporate-number-legal-basis "adószám / cégjegyzékszám"
-          :corporate-number-provenance "https://www.nav.gov.hu/"}
-   "USA" {:name "United States" :owner-authority "GSA/SAM.gov" :legal-basis "FAR" :national-spec "SAM.gov" :provenance "https://sam.gov/"
-          :required-evidence ["EIN record" "SAM.gov registration record" "State business registration record" "SAM UEI verification record"]}
-   "AUT" {:name "Austria" :owner-authority "USP" :legal-basis "BVergG" :national-spec "USP" :provenance "https://www.usp.gv.at/"
-          :required-evidence ["Firmenbuch number" "USP registration" "Firmenbuch extract" "Authorized-representative record"]}
-   "DEU" {:name "Germany" :owner-authority "e-Vergabe" :legal-basis "GWB/VgV" :national-spec "e-Vergabe" :provenance "https://www.evergabe-online.de/"
-          :required-evidence ["Handelsregister extract" "e-Vergabe registration record" "USt-IdNr record" "Authorized-representative record"]}})
+          :corporate-number-provenance "https://www.nav.gov.hu/"}})
 
 (defn spec-basis [iso3] (get catalog iso3))
 (defn coverage
